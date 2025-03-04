@@ -7,12 +7,12 @@ function validateForm()
     var pwd = document.loginform.password.value;
     // document.write(uname+" "+pwd);
     //form validation logic
-    if(uname == "")
+    if(uname == "admin")
     {
         alert("Please enter username");
         return false;
     }
-    if(pwd == "")
+    if(pwd == "admin")
     {
         alert("Please enter password");
         return false;
